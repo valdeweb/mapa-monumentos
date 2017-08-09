@@ -18,7 +18,7 @@
     top:910px;
     left: 480px;
 }
-.descripcion{ /*esto es para que tenga una medida de la descripcion, va a ser igual para todos los div de descripcion*/
+.descripcion{ /*esto sería la herramienta tooltip que es para ocultar una imagen o un texto (ver pag. 79 apuntes). Es para que tenga una medida de la descripcion, va a ser igual para todos los div de descripcion*/
     width: 100px;
     height: 100px;
     background-color: yellow;
