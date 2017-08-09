@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mapa{
+    position: relative;
+}
+.punto-interes{  /*esto sería la creación del puntito rojo, que es igual para todos*/
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    
+}
+#puerta-vino{ /*estos elementos de top y left es para colocar el punto rojo en la posición exacta en el mapa*/
+    top:910px;
+    left: 480px;
+}
+.descripcion{ /*esto es para que tenga una medida de la descripcion, va a ser igual para todos los div de descripcion*/
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    visibility: hidden;
+}
+#puerta-vino:hover .descripcion{  /*esto va a ser igual para todos los div de puntos de interes, lo que hace es que se vea la descripcion y la imagen de cada punto de interes al pasar el ratón por el puntito rojo*/
+    visibility: visible;
+}
+#ganan{ /*esta es la posición del gañan*/
+    bottom: 440px;
+    left: 120px;
+}
+#ganan:hover .descripcion{
+    visibility: visible;
+}
+#la-galana{
+    top: 700px;
+    left: 510px;
+    
+}
+#la-galana:hover .descripcion{
+    visibility: visible;
+}
+#obelisco{
+    top: 500px;
+    left: 460px;
+}
+#obelisco:hover .descripcion{
+    visibility: visible;
+}
